@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Program Files\\Rowley Associates Limited\\CrossWorks for ARM 5.1\\include",
+                "C:\\Users\\anshm\\AppData\\Local\\Rowley Associates Limited\\CrossWorks for ARM\\v5\\packages\\targets\\STM32\\include",
+                "C:\\Users\\anshm\\AppData\\Local\\Rowley Associates Limited\\CrossWorks for ARM\\v5\\packages\\CMSIS_5\\CMSIS\\Core\\Include"
+            ],
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
