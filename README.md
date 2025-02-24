@@ -21,23 +21,25 @@
 ![Board Layout](PCB_PCB_HustleTask_Nocturnal_2025-02-25.svg)
 
 ---
+## Battery Life Estimation
 
-**Battery Life Estimation:**
 Using the formula:
+
 \[ \text{Battery Life} = \frac{\text{Battery Capacity (mAh)}}{\text{Current Consumption (mA)}} \]
 
-- **Case 1: Active Measurement Mode (~40mA)**
-  \[ \frac{100mAh}{40mA} = 2.5 \text{ hours} \]
-  If the system continuously measures impedance, the battery would last approximately **2.5 hours**.
+### Case 1: Active Measurement Mode (~40mA)
+\[ \frac{100mAh}{40mA} = 2.5 \text{ hours} \]
+If the system continuously measures impedance, the battery would last approximately **2.5 hours**.
 
-- **Case 2: Mixed Usage (Active + Idle)**
-  \[ \frac{40 + 5}{2} = 22.5mA \]
-  \[ \frac{100mAh}{22.5mA} \approx 4.4 \text{ hours} \]
-  Estimated runtime: **~4.4 hours**.
+### Case 2: Mixed Usage (Active + Idle)
+\[ \frac{40 + 5}{2} = 22.5mA \]
+\[ \frac{100mAh}{22.5mA} \approx 4.4 \text{ hours} \]
+Estimated runtime: **~4.4 hours**.
 
-- **Case 3: Mostly Idle Mode (~5mA)**
-  \[ \frac{100mAh}{5mA} = 20 \text{ hours} \]
-  If the device spends most of its time in low-power mode, the battery could last up to **20 hours**.
+### Case 3: Mostly Idle Mode (~5mA)
+\[ \frac{100mAh}{5mA} = 20 \text{ hours} \]
+If the device spends most of its time in low-power mode, the battery could last up to **20 hours**.
+
 
 A battery charging circuit would be included, but within the time constraints presented, implementing that would have been difficult.
 
