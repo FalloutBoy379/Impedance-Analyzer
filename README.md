@@ -18,7 +18,8 @@
 ![Schematic](Schematic_HustleTask_Nocturnal_2025-02-25.svg)
 
 ### Board Layout
-![Board Layout](PCB (1).png)
+![Board Layout](PCB_1.png)
+
 
 ---
 ## Battery Life Estimation
